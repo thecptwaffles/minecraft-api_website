@@ -9,10 +9,11 @@
     background-color: var(--prim-clr);
 }
 
-h1, h2{
+h1, h2, a{
     font-family: var(--prim-font);
     text-align: center;
     color: var(--accent-clr);
+    text-decoration: none;
 }
 
 p {
