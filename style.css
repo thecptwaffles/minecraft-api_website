@@ -22,6 +22,6 @@ p {
     font-size: 1.5rem;
 }
 
-.server-status {
-    color: var(--accent-clr);
+.title {
+    text-decoration: underline;
 }

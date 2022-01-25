@@ -6,13 +6,15 @@ MinecraftAPI.getServerStatus('147.135.105.18', {
     }
 
     // you can change these to your own message!
-    document.querySelector('.server-online').innerHTML = status.online ? 'up' : 'down';
+    document.querySelector('.server-online').innerHTML = status.online ? 'online' : 'offline';
 
     document.querySelector('.server-motd').innerHTML = status.motd;
 
     document.querySelector('.server-players').innerHTML = status.players.now;
 
     document.querySelector('.server-max').innerHTML = status.players.max
+
+    document.querySelector('.server-version').innerHTML = status.server.name
 }
 );
 
